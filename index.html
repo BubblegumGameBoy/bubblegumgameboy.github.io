@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bubblegum Game Play｜ブラウザで遊べる自作ゲームの置き場</title>
+<meta name="description" content="Bubblegum Game が作ったブラウザゲームの本体を置いているサイトです。タイピング対戦、クリッカー、生きもの育成など6本。インストール不要、PCとスマホで遊べます。">
+<link rel="canonical" href="https://play.bubblegumgameboy.com/">
+<meta property="og:title" content="Bubblegum Game Play｜ブラウザで遊べる自作ゲームの置き場">
+<meta property="og:description" content="タイピング対戦、クリッカー、生きもの育成など、インストール不要で遊べる自作ゲーム6本。">
+<meta property="og:url" content="https://play.bubblegumgameboy.com/">
+<meta property="og:type" content="website">
+<style>
+  :root{--bg:#0f1218;--panel:#171c25;--line:#2a3140;--text:#e6e1d6;--muted:#9aa3b2;--gold:#d9b25f;--link:#8fd3e8}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font:16px/1.8 system-ui,-apple-system,"Segoe UI","Hiragino Sans","Noto Sans JP",sans-serif}
+  header{padding:28px 20px 10px;max-width:960px;margin:0 auto}
+  h1{font-size:26px;margin:0 0 6px;color:var(--gold)}
+  header p{margin:0;color:var(--muted)}
+  main{max-width:960px;margin:0 auto;padding:10px 20px 40px}
+  .intro{margin:12px 0 26px}
+  .games{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;list-style:none;padding:0;margin:0}
+  .game{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px 18px}
+  .game h2{font-size:18px;margin:0 0 6px}
+  .game p{margin:0 0 10px;color:var(--muted);font-size:14.5px}
+  .game .meta{font-size:12.5px;color:var(--muted);margin-bottom:10px}
+  .game a.play{display:inline-block;padding:8px 14px;border:1px solid var(--gold);border-radius:6px;color:var(--gold);text-decoration:none;font-weight:600;margin-right:8px}
+  .game a.play:hover{background:rgba(217,178,95,.12)}
+  .game a.more{color:var(--link);font-size:14px}
+  h2.sec{font-size:20px;margin:34px 0 10px;border-bottom:1px solid var(--line);padding-bottom:6px}
+  footer{max-width:960px;margin:0 auto;padding:20px;border-top:1px solid var(--line);color:var(--muted);font-size:13.5px}
+  footer a{color:var(--link)}
+  a{color:var(--link)}
+</style>
+</head>
+<body>
+<header>
+  <h1>Bubblegum Game Play</h1>
+  <p>ブラウザで遊べる自作ゲームの本体を置いているサイトです。</p>
+</header>
+<main>
+  <p class="intro">ここにあるゲームは、個人開発者 Bubblegum が作ったものです。インストールも登録もいらず、開いたらすぐ遊べます。遊び方や攻略は、それぞれの紹介ページ（公式サイト・ブログ）に書いてあります。ゲームの画面は公式サイトやブログの記事にも埋め込んでいて、どこから開いても同じものが動きます。</p>
+
+  <h2 class="sec">ゲーム一覧</h2>
+  <ul class="games">
+    <li class="game">
+      <h2>Mythos Slayer（スペースキー連打ゲーム）</h2>
+      <p class="meta">クリッカー／PC・スマホ</p>
+      <p>スペースキーを連打して敵を倒し、ゴールドで兵士を増やし、装備を鍛えてボスに挑むクリッカーゲームです。放っておいても兵士が戦い続けます。累積ダメージと戦闘力のランキングがあります。</p>
+      <a class="play" href="https://play.bubblegumgameboy.com/spacebar-clicker/">遊ぶ</a>
+      <a class="more" href="https://babblegum.hatenablog.com/entry/2026/06/12/144156">紹介と攻略（ブログ）</a>
+    </li>
+    <li class="game">
+      <h2>Soldier Typing（ソルジャータイピング）</h2>
+      <p class="meta">タイピング／PC向け</p>
+      <p>画面のローマ字を打つと兵士が出撃し、敵の軍勢を押し返すタイピングゲームです。打つ速さがそのまま戦力になります。</p>
+      <a class="play" href="https://play.bubblegumgameboy.com/Bubble-Wars/?lang=ja">遊ぶ</a>
+      <a class="more" href="https://bubblegumgameboy.com/ja/games/soldier-typing.html">紹介と遊び方</a>
+    </li>
+    <li class="game">
+      <h2>Cthulhu Typing（ソルジャータイピング2）</h2>
+      <p class="meta">タイピング／PC向け</p>
+      <p>単語を打って兵士を呼び、日替わりのボスと戦います。クトゥルフ神話をモチーフにした続編で、ボスごとに打つ単語の傾向が変わります。</p>
+      <a class="play" href="https://play.bubblegumgameboy.com/Typingsoldier2/?lang=ja">遊ぶ</a>
+      <a class="more" href="https://bubblegumgameboy.com/ja/games/cthulhu-typing.html">紹介と遊び方</a>
+    </li>
+    <li class="game">
+      <h2>Popcorn Typing（ポップコーンタイピング）</h2>
+      <p class="meta">タイピング／PC向け</p>
+      <p>ローマ字を打ってポップコーンを作るタイピングゲームです。短い言葉から始まるので、ローマ字入力の練習に向いています。</p>
+      <a class="play" href="https://play.bubblegumgameboy.com/popcorn-typing/?lang=ja">遊ぶ</a>
+      <a class="more" href="https://bubblegumgameboy.com/ja/games/popcorn-typing.html">紹介と遊び方</a>
+    </li>
+    <li class="game">
+      <h2>Piano Typing（ピアノタイピング）</h2>
+      <p class="meta">タイピング・音楽／PC向け</p>
+      <p>光ったキーを押して曲を進める、ピアノのタイピングゲームです。打鍵のタイミングがそのまま演奏になります。</p>
+      <a class="play" href="https://play.bubblegumgameboy.com/BeatTyping/?lang=ja">遊ぶ</a>
+      <a class="more" href="https://bubblegumgameboy.com/ja/games/piano-typing.html">紹介と遊び方</a>
+    </li>
+    <li class="game">
+      <h2>Creature Raising Kit（生きもの育成キット）</h2>
+      <p class="meta">育成／PC・スマホ</p>
+      <p>島で生きものを育て、ほかのプレイヤーとボトルメールを交わすゲームです。時間をかけてゆっくり育てる作りです。</p>
+      <a class="play" href="https://play.bubblegumgameboy.com/Creature-raisingkit/">遊ぶ</a>
+      <a class="more" href="https://babblegum.hatenablog.com/entry/2026/07/21/140911">紹介（ブログ）</a>
+    </li>
+  </ul>
+
+  <h2 class="sec">このサイトについて</h2>
+  <p>ゲームの紹介、遊び方、更新情報は公式サイト <a href="https://bubblegumgameboy.com/ja/">Bubblegum Game</a> にまとめています。制作の記録や攻略は <a href="https://babblegum.hatenablog.com/">バブルガムのゲームブログ</a> に書いています。ゲームが動かないときは、公式サイトの<a href="https://bubblegumgameboy.com/ja/play-guide.html">遊び方ガイド</a>を見てください。</p>
+  <p>ゲームには広告が表示されることがあります。広告の配信事業者と、取得する情報については<a href="https://bubblegumgameboy.com/ja/privacy.html">プライバシーポリシー</a>に書いています。</p>
+</main>
+<footer>
+  © 2026 Bubblegum Game ・ <a href="https://bubblegumgameboy.com/ja/about.html">運営者</a> ・ <a href="https://bubblegumgameboy.com/ja/privacy.html">プライバシーポリシー</a> ・ <a href="https://bubblegumgameboy.com/ja/contact.html">お問い合わせ</a>
+</footer>
+</body>
+</html>
